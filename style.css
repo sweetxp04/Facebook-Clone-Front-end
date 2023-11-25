@@ -271,7 +271,7 @@ nav img.logo{
 .story4{
     background-image:linear-gradient(transparent, rgba(0,0,0,0.5)), url(./img/status-5.png);
 }
-.post_container{
+.post_container,.newfeed_container{
     width: 100%;
     background-color: #fff;
     border-radius: 4px;
@@ -326,4 +326,67 @@ nav img.logo{
 }
 .post_links a img{
     width: 20px;
+}
+.newfeed_container{
+    margin-top: 10px;
+}
+.newfeed_container span.date{
+    color: #626262;
+    font-size: 12px;
+    font-weight: 300;
+}
+.newfeed_container p.post_text{
+    padding: 15px 25px 10px 25px;
+    color: #9a9a9a;
+    font-size: 15px;
+
+}
+.newfeed_container p.post_text a{
+    text-decoration: none;
+    margin-left: 5px;
+}
+.newfeed_container img.feed_img{
+    width: 100%;
+    border-radius: 5px;
+}
+.feed_post_row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.activity_icons{
+    display: flex;
+    gap: 10px;
+}
+.activity_icons div img{
+    width: 18px;
+    
+}
+.activity_icons div{
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    gap: 15px;
+    cursor: pointer;
+}
+.post_profile_icons{
+    display: flex;
+    align-items: center;
+}
+.post_profile_icons img{
+    width: 20px;
+    border-radius: 50%;
+}
+.newfeed_container .three_dot{
+    position: relative;
+}
+.newfeed_container .three_dot::before{
+    content: "...";
+    /* height: 20px;
+    width: 20px; */
+    position: absolute;
+    top:-10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
 }
