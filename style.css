@@ -271,3 +271,59 @@ nav img.logo{
 .story4{
     background-image:linear-gradient(transparent, rgba(0,0,0,0.5)), url(./img/status-5.png);
 }
+.post_container{
+    width: 100%;
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 15px;
+}
+.user_post,.profile_img{
+    display: flex; 
+    align-items: center;
+}
+
+.profile_img img{
+    height: 40;
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.user_post small{
+    color: #626262;
+    font-size: 12px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.post_input_container{
+    margin: 10px 0;
+    padding-left: 35px;
+}
+.post_input_container textarea{
+    width: 100%;
+    padding: 15px;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid #ccc;
+    background-color: transparent;
+    resize: none;
+}
+.post_links{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    gap: 20px;
+}
+.post_links a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #626262;
+    font-size: 13px;
+}
+.post_links a img{
+    width: 20px;
+}
